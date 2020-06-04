@@ -31,6 +31,8 @@ https://tangible.media.mit.edu/
 
 
 
+[![Don Norman TED talk](https://www.youtube.com/watch?v=RlQEoJaLQRA)]
+
 
 
 ## Interaction Design Program
