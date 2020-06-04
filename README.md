@@ -1,5 +1,8 @@
 ## Welcome to GitHub Pages
 
+https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
+
+
 You can use the [editor on GitHub](https://github.com/gregorycowley/CCA-ClassKit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.

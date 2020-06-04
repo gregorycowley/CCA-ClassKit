@@ -1,18 +1,16 @@
 # --- Basic options --- #
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 
-# Name of website
-title: My website
+# # Name of website
+# title: My website
 
-# Short description of your site
-description: A virtual proof that I'm awesome
+# # Short description of your site
+# description: Site desctiption
 
-
-logo: [Location of the logo]
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-
+# logo: "/images/logo.png"
+# show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+# google_analytics: [Your Google Analytics tracking ID]
 
 
 # --- List of links in the navigation bar --- #
@@ -201,19 +199,19 @@ google_analytics: [Your Google Analytics tracking ID]
 #       show-avatar: true
 
 # Exclude these files from production site
-exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - screenshot.png
-  - docs/
+# exclude:
+#   - CHANGELOG.md
+#   - CNAME
+#   - Gemfile
+#   - Gemfile.lock
+#   - LICENSE
+#   - README.md
+#   - screenshot.png
+#   - docs/
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
