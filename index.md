@@ -2,42 +2,43 @@
 
 
 ### Useful Links:
-
-http://portal.cca.edu/
-https://jekyllrb.com/docs/pages/
-https://github.com/
-https://github.com/gregorycowley/CCA-ClassKit
-
-https://github.com/gregorycowley/CCA-ClassKit/settings
+[http://portal.cca.edu/]
 
 
+## Class Tools
+[https://github.com/]
+[https://github.com/gregorycowley/CCA-ClassKit]
 
-https://processing.org/
-https://p5js.org/
+## Your Online Process Document
+[https://jekyllrb.com/docs/pages/]
+[https://jekyllrb.com/docs/configuration/]
 
-https://hello.processing.org/
+## Interaction Programming Tools
+[https://processing.org/]
+[https://p5js.org/]
+[https://hello.processing.org/]
 
-https://www.youtube.com/user/shiffman
-https://www.youtube.com/user/crashcourse/featured
-https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
+## Video Tutorials
+[https://www.youtube.com/user/shiffman]
+[https://www.youtube.com/user/crashcourse/featured]
+[https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw]
 
-https://scratch.mit.edu/
-https://studio.code.org/s/artist/stage/1/puzzle/1
+## Intro to Coding Tools
+[https://scratch.mit.edu/]
+[https://studio.code.org/s/artist/stage/1/puzzle/1]
+
+## Related Educational Programs
+[https://itp.nyu.edu/physcomp/]
+[https://tangible.media.mit.edu/]
 
 
-https://itp.nyu.edu/physcomp/
-https://tangible.media.mit.edu/
-
-
-[!Don Norman TED talk](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=RlQEoJaLQRA)
-
+## Videos
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RlQEoJaLQRA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+---
 
+# CCA Interaction Design Program
 
-## Interaction Design Program
-
-	
 ### IXDSN 2500-1 - Prototyping
 Tue/Fri | 4:00 PM - 7:00 PM
 San Francisco - Main Building - N15
@@ -50,7 +51,8 @@ Description
 This course will introduce and explore prototyping from all aspects relevant to interaction design. Prototyping tools will be introduced from low fidelity to high including sketching to digital to interactive. Prototyping methods and mindset will be introduced. Students will also be introduced to meta-learning, a critical capacity to keep up and evolve as tools and processes do. Finally students will learn basic evaluative techniques to be ready to go out and learn from the world how effective their designs are and how to evolve and improve their designs.
 
 
-	
+---
+
 ### IXDSN 3000-1 - IxD 3: Objects and Space
 Tue/Thu | 12:00 PM - 3:00 PM
 San Francisco - Main Building - E5
