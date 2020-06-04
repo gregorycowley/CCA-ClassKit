@@ -8,26 +8,33 @@ title: My website
 # Short description of your site
 description: A virtual proof that I'm awesome
 
-# Your name to show in the footer
-author: Some Person
+
+logo: [Location of the logo]
+show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+
+
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+# Your name to show in the footer
+# author: Some Person
 
-# --- Logo --- #
+# navbar-links:
+#   About Me: "aboutme"
+#   Resources:
+#     - Beautiful Jekyll: "https://beautifuljekyll.com"
+#     - Learn markdown: "https://www.markdowntutorial.com/"
+#   Author's home: "https://deanattali.com"
 
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+# # --- Logo --- #
 
-# By default, the image is cut into a circle. You can disable this behaviour here.
-round-avatar: true
+# # Image to show in the navigation bar - works best with a square image
+# # Remove this parameter if you don't want an image in the navbar
+# avatar: "/assets/img/avatar-icon.png"
+
+# # By default, the image is cut into a circle. You can disable this behaviour here.
+# round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -38,13 +45,13 @@ round-avatar: true
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
-# If you don't want to show a link to an RSS feed, set rss to "false".
-social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  rss: true
+# # If you don't want to show a link to an RSS feed, set rss to "false".
+# social-network-links:
+#   email: "someone@example.com"
+#   facebook: deanattali
+#   github: daattali
+#   twitter: daattali
+#   rss: true
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -63,34 +70,34 @@ social-network-links:
 # --- General options --- #
 
 # Select which social network share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+# share-links-active:
+#   twitter: true
+#   facebook: true
+#   linkedin: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
-# Create a "tags" index page and make tags on each post clickable
-link-tags: true
+# # Create a "tags" index page and make tags on each post clickable
+# link-tags: true
 
 # Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+# excerpt_length: 50
 
-# --- Colours / background image --- #
+# # --- Colours / background image --- #
 
-# Personalize the colors in your website. Colour values can be any valid CSS colour
+# # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
-navbar-border-col: "#EAEAEA"
-page-col: "#FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+# navbar-col: "#F5F5F5"
+# navbar-text-col: "#404040"
+# navbar-border-col: "#EAEAEA"
+# page-col: "#FFFFFF"
+# link-col: "#008AFF"
+# hover-col: "#0085A1"
+# footer-col: "#F5F5F5"
+# footer-text-col: "#777777"
+# footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -154,10 +161,10 @@ footer-link-col: "#404040"
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
-title-separator: "-"
+# title-separator: "-"
 
-# Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+# # Ruby Date Format to show dates of posts
+# date_format: "%B %-d, %Y"
 
 # Facebook App ID
 #fb_app_id: ""
@@ -166,32 +173,32 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+# timezone: "America/Vancouver"
+# markdown: kramdown
+# highlighter: rouge
+# permalink: /:year-:month-:day-:title/
+# paginate: 5
 
-kramdown:
-  input: GFM
+# kramdown:
+#   input: GFM
 
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-      readtime: false # add estimated reading time on all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-      show-avatar: true
+# # Default YAML values (more information on Jekyll's site)
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
+#       comments: true  # add comments to all blog posts
+#       social-share: true # add social media sharing buttons to all blog posts
+#       readtime: false # add estimated reading time on all blog posts
+#   -
+#     scope:
+#       path: "" # all files
+#     values:
+#       layout: "page"
+#       show-avatar: true
 
 # Exclude these files from production site
 exclude:
@@ -211,4 +218,4 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
-theme: jekyll-theme-minimal
+
