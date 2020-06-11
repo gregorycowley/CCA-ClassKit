@@ -3,4 +3,4 @@ logo: /assets/img/cca.svg
 description: CCA option theme for GitHub Pages.
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
