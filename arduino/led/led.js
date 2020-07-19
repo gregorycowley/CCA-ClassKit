@@ -4,7 +4,8 @@
   document.addEventListener('DOMContentLoaded', event => {
     let connectButton = document.querySelector("#connect");
     let statusDisplay = document.querySelector('#status');
-    let LED = document.querySelector('#LED');
+    let ledOn = document.querySelector('#ledOn');
+    let ledOff = document.querySelector('#ledOff');
     let port;
 
     function connect() {
@@ -29,8 +30,11 @@
         return;
       }
 
-      let state = parseInt(LED.value);
-      port.send(state);
+      let view = new Uint8Array(2);
+      view[0] = parseInt(ledOn.value);
+      view[1] = parseInt(ledOff.value);
+      port.send(view);
+
     };
 
     LED.addEventListener('input', onUpdate);
