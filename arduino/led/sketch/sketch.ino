@@ -14,7 +14,9 @@ WebUSB WebUSBSerial(1 /* https:// */, "gregorycowley.github.io/CCA-ClassKit/ardu
 
 int led = 7;
 int del = 1000;
-int state = 0;
+
+int state[2];
+int stateIndex;
 
 void setup() {
   while (!Serial) {
@@ -24,17 +26,36 @@ void setup() {
   Serial.write("Sketch begins.\r\n");
   Serial.flush();
   pinMode(led, OUTPUT);
+  stateIndex = 0;
 }
 
 void loop() {
   if (Serial && Serial.available()) {
-    state = Serial.read();
-    if (state == 1) {
-      digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
-      // delay(del);                       // wait for a second
-    } else {
-      digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
-      // delay(del);      
+    state[stateIndex++] = Serial.read();
+    Serial.print("X");
+    Serial.print(Serial.read());
+    if (stateIndex == 2){
+      Serial.print("Reading state ");
+      Serial.print(state[0]);
+      Serial.print(", ");
+      Serial.print(state[1]);
+      Serial.print(", ");
+      Serial.print(state[2]);
+      Serial.print("::");
+      Serial.print(stateIndex);
+  
+      Serial.print(".\r\n");
+      Serial.flush();
+  
+      if (state[2] == 1) {
+        digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
+        // delay(del);                       // wait for a second
+      } else {
+        digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
+        // delay(del);      
+      }
+
+      stateIndex = 0;
     }
   }
 }
