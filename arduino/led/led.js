@@ -37,8 +37,8 @@
 
     };
 
-    ledOn.addEventListener('input', onUpdate);
-    ledOff.addEventListener('input', onUpdate);
+    ledOn.addEventListener('change', onUpdate);
+    ledOff.addEventListener('change', onUpdate);
 
     connectButton.addEventListener('click', function() {
       if (port) {
