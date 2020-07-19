@@ -8,7 +8,7 @@
  * The URL here provides a hint to the browser about what page the user should
  * navigate to to interact with the device.
  */
-WebUSB WebUSBSerial(1 /* https:// */, "gregorycowley.github.io/CCA-ClassKit/arduino/console/");
+WebUSB WebUSBSerial(1 /* https:// */, "gregorycowley.github.io/CCA-ClassKit/arduino/led/");
 
 #define Serial WebUSBSerial
 
