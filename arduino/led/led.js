@@ -31,8 +31,8 @@
       }
 
       let view = new Uint8Array(2);
-      view[0] = parseInt(ledOn.checked);
-      view[1] = parseInt(ledOff.checked);
+      view[0] = (ledOn.checked) ? 1:0;
+      view[1] = (ledOff.checked) ? 1:0;
       port.send(view);
 
     };
