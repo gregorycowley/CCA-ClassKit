@@ -23,6 +23,7 @@ var serial = {};
       { 'vendorId': 0x2341, 'productId': 0x8055 }, // Arduino MKR NB 1500
       { 'vendorId': 0x2341, 'productId': 0x8056 }, // Arduino MKR Vidor 4000
       { 'vendorId': 0x2341, 'productId': 0x8057 }, // Arduino NANO 33 IoT
+      { 'vendorId': 0x1a86, 'productId': 0x7523 }, // Arduino NANO 33 IoT
       { 'vendorId': 0x239A }, // Adafruit Boards!
     ];
     return navigator.usb.requestDevice({ 'filters': filters }).then(

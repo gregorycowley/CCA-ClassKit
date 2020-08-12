@@ -32,22 +32,15 @@ void setup() {
 void loop() {
   if (Serial && Serial.available()) {
     state[stateIndex++] = Serial.read();
-    Serial.print("X");
-    Serial.print(Serial.read());
     if (stateIndex == 2){
       Serial.print("Reading state ");
       Serial.print(state[0]);
       Serial.print(", ");
       Serial.print(state[1]);
-      Serial.print(", ");
-      Serial.print(state[2]);
-      Serial.print("::");
-      Serial.print(stateIndex);
-  
       Serial.print(".\r\n");
       Serial.flush();
   
-      if (state[2] == 1) {
+      if (state[0] == 1) {
         digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
         // delay(del);                       // wait for a second
       } else {
