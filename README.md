@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Welcome to GitHub Pages
 
 https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
@@ -41,5 +40,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 =======
 # CCA-Class-Kit
-
->>>>>>> Initial commit

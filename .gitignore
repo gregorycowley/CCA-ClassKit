@@ -102,7 +102,22 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+
 .DS_Store
 animations/
 package.json
 package-lock.json
+
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+public
+.env
+.env.build
+.vercel
+
