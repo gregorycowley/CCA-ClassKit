@@ -1,42 +1,28 @@
-## Welcome to GitHub Pages
+# CCA-Class-Kit
+================
 
-https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
+Wecome to the CCA Class Kit. This is a collection of code samples that can be used in interaction design projects.
+
+## How to use this repository
 
 
-You can use the [editor on GitHub](https://github.com/gregorycowley/CCA-ClassKit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Jekyll and Github Pages
+[Jekyll Instructions](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```
+$ jekyll new --skip-bundle .
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+$ bundle install
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+$ bundle exec jekyll serve --baseurl=""
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gregorycowley/CCA-ClassKit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-=======
-# CCA-Class-Kit
+For Vercel development locally:
+```
+$ vercel dev
+```
