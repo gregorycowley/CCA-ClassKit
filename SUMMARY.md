@@ -4,8 +4,7 @@
 
 ## Code
 
-* [Page 1](code/page-1.md)
-
-## P5js JavaScript Code
-
-* [If-Esle Statements](p5js-javascript-code/if-esle-statements.md)
+* [P5js and Teachable Machine](code/p5js-and-teachable-machine/README.md)
+  * [Increment UI State](code/p5js-and-teachable-machine/increment-ui-state.md)
+  * [Smooth Out TM Behavior](code/p5js-and-teachable-machine/smooth-out-tm-behavior.md)
+* [If-Esle Statements](code/if-esle-statements.md)
