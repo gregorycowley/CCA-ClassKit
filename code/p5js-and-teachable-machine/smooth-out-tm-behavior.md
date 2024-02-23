@@ -1,4 +1,4 @@
-# Smooth Out TM Behavior
+# Smooth-Out TM
 
 ```javascript
 let guesses = [];
