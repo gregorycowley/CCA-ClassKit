@@ -1,0 +1,3 @@
+[submodule "Projects/electron/ixd-mqtt-macos/wemos_module/SmartWashingMachine"]
+	path = Projects/electron/ixd-mqtt-macos/wemos_module/SmartWashingMachine
+	url = git@github.com:bitluni/SmartWashingMachine.git

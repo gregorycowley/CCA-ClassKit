@@ -1,0 +1,18 @@
+[
+    {
+        "type": "Directory",
+        "name": "/Users/gregorycowley/Projects/cca-code-library/CCA-ClassKit/Projects/electron/nodejs-starter",
+        "parent_id": null,
+        "workspaceRoot": "/Users/gregorycowley/Projects/cca-code-library/CCA-ClassKit",
+        "workspacePath": "Projects/electron/nodejs-starter",
+        "id": "cXoqAR5hCYmT9E7s"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/gregorycowley/Projects/cca-code-library/CCA-ClassKit/Projects/electron/ixd-mqtt-macos",
+        "parent_id": null,
+        "workspaceRoot": "/Users/gregorycowley/Projects/cca-code-library/CCA-ClassKit",
+        "workspacePath": "Projects/electron/ixd-mqtt-macos",
+        "id": "OC9oPRdSQFDKbYqc"
+    }
+]

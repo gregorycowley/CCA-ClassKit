@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Origin Trial Token, feature = WebUSB (For Chrome M57+), origin = https://webusb.github.io, expires = 2017-06-19 -->
+    <meta http-equiv="origin-trial" data-feature="WebUSB (For Chrome M57+)" data-expires="2017-06-19" content="Ag83MurQOa5N4SKRCqqtSlbycfe08s5LgUiqEI7J3jTk2NEIpRp7SLPz2i+EBDuXyf+AeRMdD6BI++kTSJmGzQEAAABReyJvcmlnaW4iOiJodHRwczovL3dlYnVzYi5naXRodWIuaW86NDQzIiwiZmVhdHVyZSI6IldlYlVTQjIiLCJleHBpcnkiOjE0OTc4OTM2OTV9">
+    <title>RGB LED</title>
+    <script src="../serial.js"></script>
+    <script src="led.js"></script>
+  </head>
+  <body>
+    <p>
+      <button id="connect">Connect</button> <span id="status"></span>
+    </p>
+
+    <input type="radio" id="ledOn" name="state" value="1">
+    <label for="ledOn">LED On</label><br>
+
+    <input type="radio" id="ledOff" name="state" value="0">
+    <label for="ledOff">LED Off</label><br>
+
+ 
+  </body>
+</html>

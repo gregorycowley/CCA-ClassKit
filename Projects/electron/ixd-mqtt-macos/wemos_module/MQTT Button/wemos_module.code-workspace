@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Projects/cca-code-library/CCA-ClassKit/Code_Resources/electron/ixd-mqtt-macos/wemos_module"
+		},
+		{
+			"name": "MQTT Button",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
