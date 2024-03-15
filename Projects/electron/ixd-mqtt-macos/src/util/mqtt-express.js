@@ -1,45 +1,46 @@
-import express from 'express'
-import * as mqtt from 'mqtt'
+/* global */
+const express = require ('express');
+const mqtt = require('mqtt');
 
-const app = express()
-const mqttClient = mqtt.connect('mqtt://localhost:1883')
+const app = express();
+const mqttClient = mqtt.connect('mqtt://localhost:1883');
 
 // Connect to the MQTT broker
 mqttClient.on('connect', function () {
-  console.log('Connected to MQTT broker')
-})q
+  console.log('Connected to MQTT broker');
+});
 
 // MQTT middleware for publishing and subscribing
 app.use(function (req, res, next) {
   // Publish messages
   req.mqttPublish = function (topic, message) {
-    mqttClient.publish(topic, message)
-  }
+    mqttClient.publish(topic, message);
+  };
 
   // Subscribe to topic
   req.mqttSubscribe = function (topic, callback) {
-    mqttClient.subscribe(topic)
+    mqttClient.subscribe(topic);
     mqttClient.on('message', function (t, m) {
       if (t === topic) {
-        callback(m.toString())
+        callback(m.toString());
       }
-    })
-  }
-  next()
-})
+    });
+  };
+  next();
+});
 
 app.get('/', function (req, res) {
   // Publish
-  req.mqttPublish('test', 'Hello MQTT!')
+  req.mqttPublish('test', 'Hello MQTT!');
 
   // Subscribe
   req.mqttSubscribe('test', function (message) {
-    console.log('Received message: ' + message)
-  })
+    console.log('Received message: ' + message);
+  });
 
-  res.send('MQTT is working!')
-})
+  res.send('MQTT is working!');
+});
 
 app.listen(3000, function () {
-  console.log('Server is running on port 3000')
-})
+  console.log('Server is running on port 3000');
+});

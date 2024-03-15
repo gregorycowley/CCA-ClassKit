@@ -2,7 +2,8 @@
   "name": "cca-electron-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main/main.js",
+  "type": "commonjs",
   "scripts": {
     "start": "electron --trace-warnings .",
     "build": "electron-forge start",
@@ -22,6 +23,7 @@
     "electron": "^29.0.1",
     "electron-reload": "^2.0.0-alpha.1",
     "electron-reloader": "^1.2.3",
+    "eslint": "^8.57.0",
     "mocha": "^10.3.0"
   },
   "dependencies": {
